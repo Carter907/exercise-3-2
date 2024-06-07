@@ -4,12 +4,11 @@ BEGIN
 		Main METHOD
 			DOUBLE speed = (CONVERT TO DOUBLE) PROMPT USER("Please enter the windspeed of the Hurricane")
 
-        		IF speed >= 157 THEN
-
+			IF speed >= 157 THEN
 				PRINT
 				- "Category Five Hurricane"
 
-		        ELSE IF speed >= 130 THEN
+			ELSE IF speed >= 130 THEN
 		        
 				PRINT
 				- "Category Four Hurricane"
