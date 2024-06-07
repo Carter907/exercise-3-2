@@ -2,42 +2,37 @@
 BEGIN
 	CLASS Program
 		Main METHOD
-          DOUBLE speed = (CONVERT TO DOUBLE) PROMPT USER("Please enter the windspeed of the Hurricane")
+			DOUBLE speed = (CONVERT TO DOUBLE) PROMPT USER("Please enter the windspeed of the Hurricane")
 
-        if (speed >= 157)
-        {
-            Console.WriteLine("Category Five Hurricane");
+        		IF speed >= 157 THEN
 
+				PRINT
+				- "Category Five Hurricane"
 
-        }
-        else if (speed >= 130)
-        {
-            Console.WriteLine("Category Four Hurricane");
+		        ELSE IF speed >= 130 THEN
+		        
+				PRINT
+				- "Category Four Hurricane"
+		
+			ELSE IF speed >= 111 THEN
 
+				PRINT
+				- "Category Four Hurricane"
+		
+			ELSE IF speed >= 96 THEN
+		        
+				PRINT
+				- "Category Four Hurricane"
+		
+			ELSE IF speed >= 74 THEN
+		        
+				PRINT
+				- "Category Four Hurricane"
+		
+		        ELSE
+				PRINT
+				- "Not a Hurricane"
 
-        }
-        else if (speed >= 111)
-        {
-            Console.WriteLine("Category Three Hurricane");
-
-        }
-        else if (speed >= 96)
-        {
-
-            Console.WriteLine("Category Two Hurricane");
-
-        }
-        else if (speed >= 74)
-        {
-
-            Console.WriteLine("Category One Hurricane");
-
-        }
-        else
-        {
-
-            Console.WriteLine("Not a Hurricane");
-        }
 		END Main
 	END Program
 END
