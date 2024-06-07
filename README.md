@@ -27,8 +27,7 @@ BEGIN
 		        
 				PRINT
 				- "Category Four Hurricane"
-		
-		        ELSE
+			ELSE
 				PRINT
 				- "Not a Hurricane"
 
